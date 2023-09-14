@@ -9,4 +9,7 @@ export default defineConfig({
     '@tc-lib/components': '@tc-lib/components',
     '@tc-lib/utils': '@tc-lib/utils',
   },
+  history: {
+    type: 'hash',
+  },
 });
